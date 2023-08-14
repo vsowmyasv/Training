@@ -1,0 +1,28 @@
+package Factory;
+
+public abstract class BusFactory implements Factories{
+    public void brake()
+    {
+        System.out.println("Brake applied on Bus");
+    }
+    public void closeWindow()
+    {
+        System.out.println("Bus windows are closed");
+    }
+    public void openWindow()
+    {
+        System.out.println("Bus windows are opened");
+    }
+    public void startEngine()
+    {
+        System.out.println("Bus engine started");
+    }
+    public void hydraulicBrake()
+    {
+        System.out.println("Hydraulic brakes applied");
+    }
+    public void emergencyExit()
+    {
+        System.out.println("Emergency exit opened");
+    }
+}
