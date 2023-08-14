@@ -1,0 +1,21 @@
+package JUnitTest;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+
+    public static void main(String[] args) {
+        HashMap<String,Integer> map = new HashMap<>();
+        map.put("Sowmya",10);
+        map.put("Nandhitha",20);
+        map.put("Vishwadharani",30);
+        System.out.println("Size of map is: "+ map.size());
+        System.out.println(map);
+        if(map.containsKey("Sowmya"))
+        {
+            Integer a = map.get("Sowmya");
+            System.out.println("Value for key"+" \"sowmya\" is: " +a);
+        }
+    }
+
+}

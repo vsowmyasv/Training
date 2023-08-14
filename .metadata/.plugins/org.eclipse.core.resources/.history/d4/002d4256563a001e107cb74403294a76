@@ -1,0 +1,14 @@
+package JUnitTest;
+
+import org.junit.Test;
+public class HashMapDemoTest {
+    Hashmap h = new HashMap();
+    @Test
+    public void test_get()
+    {
+        assertQuals("Sowmya",10);
+    }
+    private void assertEquals(String Sowmya, int i){
+
+    }
+}

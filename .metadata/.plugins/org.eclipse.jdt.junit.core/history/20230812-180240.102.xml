@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HashMapDemoTest.TestAdd" project="Training" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="HashMapDemoTest" time="0.017" uniqueid="[engine:junit-jupiter]/[class:HashMapDemoTest]">
+    <testcase name="TestAdd" classname="HashMapDemoTest" time="0.017" displayname="TestAdd()" uniqueid="[engine:junit-jupiter]/[class:HashMapDemoTest]/[method:TestAdd()]"/>
+  </testsuite>
+</testrun>

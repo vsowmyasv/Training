@@ -1,0 +1,12 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
+class HashMapDemoTest {
+
+	@Test
+	void testAdd() {
+		Assertions.assertTrue(add(1, 2));
+	}
+
+}

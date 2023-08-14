@@ -1,0 +1,15 @@
+package JUnitTest;
+import java.util.HashMap;
+
+import org.junit.jupiter.api.Test;
+public class HashMapDemoTest {
+    HashMap h = new HashMap();
+    @Test
+    public void test_get()
+    {
+        assertEquals("Sowmya",10);
+    }
+    private void assertEquals(String Sowmya, int i){
+
+    }
+}
